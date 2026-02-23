@@ -1,0 +1,2 @@
+// single no. 
+// using xor
