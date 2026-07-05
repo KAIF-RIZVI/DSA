@@ -13,6 +13,7 @@ public:
     }
 };
 
+
 class list
 {
 public:
@@ -59,18 +60,12 @@ public:
     void pop_front()
     {
         if (head == NULL)
-        {
-            return;
-        }
+        {return;}
         Node *temp = head;
         if (head->next == NULL)
-        {
-            head = tail = NULL;
-        }
+        {head = tail = NULL;}
         else
-        {
-            head = head->next;
-        }
+        {head = head->next;}
         delete temp;
     }
 
@@ -174,6 +169,5 @@ int main()
     ll.push_back(1000);
     ll.show();
     cout<<ll.search(40);
-
     return 0;
 }

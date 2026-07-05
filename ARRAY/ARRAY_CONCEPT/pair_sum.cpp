@@ -36,7 +36,7 @@
 using namespace std;
 vector<int> pair_sum(vector <int> &nums,int target);
 int main(){
-    vector <int> nums={3,4,5,6,7}; //sorted
+    vector <int> nums={3,4,5,6,7};
     int target;
     cout<<"ENTER THE SUM VALUE OF TWO MEMBERS OF ARRAY(VALID):"<<endl;
     cin>>target;

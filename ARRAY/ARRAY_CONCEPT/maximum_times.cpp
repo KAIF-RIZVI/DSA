@@ -41,7 +41,7 @@
 // };
 
 // or
-// applying logic through the moores voting algorithm (most efficient)
+//applying logic through the moores voting algorithm (most efficient)
 // class Solution {
 // public:
 //     int majorityElement(vector<int>& nums) {

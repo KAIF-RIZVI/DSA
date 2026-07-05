@@ -2,7 +2,7 @@
 #include<iostream>
 using namespace std;
 int main(){
-    const int a=5;
+    int a=5;
     int testing[a];   // declare an array     static
     cout<<"Enter the elements of an array(5):"<<endl;   // taking inputs 
     for(int i=0;i<5;i++){
